@@ -669,7 +669,7 @@
     <string name="rebase_abort_err">Ошибка при отмене перебазирования</string>
     <string name="rebase_aborted">Перебазирование отменено</string>
     <string name="rebase_state">ПЕРЕБАЗИРОВАНИЕ</string>
-    <string name="commit_err">Ошибка коммита
+    <string name="commit_err">Ошибка коммита</string>
     <string name="leave_msg_empty_will_use_origin_commit_s_msg">Если оставить сообщение пустым, будет использовано сообщение исходного коммита</string>
     <string name="amend">Изменить</string>
     <string name="overwrite_author">Перезаписать автора</string>
@@ -1134,5 +1134,22 @@
     <string name="a_closed_eye">Закрытый глаз</string>
     <string name="push_canceled_by_commit_failed">Отправка отменена из-за ошибки фиксации</string>
     <string name="sync_canceled_by_commit_failed">Синхронизация отменена из-за ошибки фиксации</string>
-    
+
+
+
+<!--    added at 20241228 -->
+    <string name="timezone">Часовой пояс</string>
+    <string name="timezone_offset_in_minutes_when_viewing_commits">Сдвиг часового пояса в минутах при просмотре коммитов</string>
+    <string name="default_str">По умолчанию</string>
+    <string name="offset_in_minutes">сдвиг в минутах</string>
+    <string name="get_system_timezone_offset">Получить сдвиг часового пояса системы</string>
+    <string name="leave_empty_to_use_default_timezone_offset_from_commits">Оставить пустым для использования сдвига часового пояса по умолчанию из данных коммитов</string>
+    <string name="commits">Коммиты</string>
+    <string name="timezone_offset_example">например, -480 это UTC-8, +480 или 480 это UTC+8, +330 или 330 это UTC+5:30</string>
+    <string name="follow_system">Соответствие системе</string>
+    <string name="use_offset_from_commits">Использовать сдвиг из коммитов</string>
+    <string name="timezone_when_viewing_commits">Часовой пояс при просмотре коммитов</string>
+    <string name="set_timezone_leave_empty_note">Вы можете оставить сдвиг часового пояса пустым тогда при просмотре объектов Git(коммиты, метки и т.п) будет использоваться их часовой пояс. А при создании объектов Git в них будет сохраняться системный часовой пояс.</string>
+    <string name="default_timezone_rule_description">При просмотре объекта Git считывать из него часовой пояс. При создании объекта Git сохранять в нем системный часовой пояс</string>
+
 </resources>
