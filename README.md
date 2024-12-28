@@ -5,11 +5,11 @@ PuppyGit russian translation
 
 PuppyGit - это программа для работы с локальными и удаленными [Git](https://git-scm.com/) репозиториями для [Android](https://ru.wikipedia.org/wiki/Android).
 
-[Program repository and latest versions](https://github.com/catpuppyapp/PuppyGit)  
-[Репозиторий программы и последние версии с русским переводом](https://github.com/catpuppyapp/PuppyGit)
+[Репозиторий программы и последние версии с русским переводом](https://github.com/catpuppyapp/PuppyGit)  
 
-[Original English file](https://github.com/catpuppyapp/PuppyGit/blob/main/app/src/main/res/values/strings.xml)  
-[Оригинальный английский файл](https://github.com/catpuppyapp/PuppyGit/blob/main/app/src/main/res/values/strings.xml)
+[Оригинальный английский файл](https://github.com/catpuppyapp/PuppyGit/blob/main/app/src/main/res/values/strings.xml)  
+
+[Файл перевода в репозитории PuppyGit](https://github.com/catpuppyapp/PuppyGit/blame/main/app/src/main/res/values-ru/strings.xml)  
 
 ***Если вы нашли в русском переводе ошибку или неточность, пожалуйста, сообщите мне.***  
 Вы также можете присоединиться к нам в качестве переводчика здесь.  
