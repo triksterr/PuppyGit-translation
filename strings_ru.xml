@@ -963,13 +963,6 @@
     <string name="hide">Скрыть</string>
     <string name="prev_filename">Предыдущий: ph_a3f241dc_1</string>
     <string name="next_filename">Следующий: ph_a3f241dc_1</string>
-    <string name="invalid_conflict_block">Некорректный блок конфликта</string>
-    <string name="accept_both">Принять оба</string>
-    <string name="reject_both">Отклонить оба</string>
-    <string name="go_to_bottom">Перейти вниз</string>
-    <string name="hide">Скрыть</string>
-    <string name="prev_filename">Предыдущий: ph_a3f241dc_1</string>
-    <string name="next_filename">Следующий: ph_a3f241dc_1</string>
     <string name="invalid_conflict_block">Недопустимый блок конфликта</string>
     <string name="accept_both">Принять оба</string>
     <string name="reject_both">Отклонить оба</string>
@@ -1156,12 +1149,12 @@
     <string name="default_timezone_rule_description">При просмотре объекта Git считывать из него часовой пояс. При создании объекта Git сохранять в нем системный часовой пояс</string>
 
 
-<!--    new at 20250102-->
+    <!--    new at 20250102-->
     <string name="undo">Отменить</string>
     <string name="redo">Повторить</string>
     <string name="show_undo_redo">Показать отмену/повтор</string>
 
-<!--    new at 20250127-->
+    <!--    new at 20250127-->
     <string name="encode_new_password_failed_plz_try_another_one">Ошибка шифрования нового пароля, попробуйте другой</string>
     <string name="stop">Остановить</string>
     <string name="service">Сервис</string>
@@ -1209,6 +1202,10 @@
     <string name="click_to_switch_selected_unselected_long_click_to_config_linked_repos">Нажмите для переключения выбранного/невыбранного, долгий клик по выбранному приложению для настройки связанных репозиториев</string>
     <string name="cut">Вырезать</string>
     <string name="if_unable_choose_a_path_just_copy_paste_instead">Если невозможно выбрать путь, возможно, ваша система удалила файловый менеджер. Просто скопируйте путь из \'Файлы\' и вставьте его сюда</string>
+
+
+    <!-- new at 20250215 -->
+    <string name="dev_mode">Dev Mode</string>
 
 
 </resources>
