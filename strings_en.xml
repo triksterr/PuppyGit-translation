@@ -89,8 +89,8 @@
     <string name="input_passphrase_if_have">Input passphrase (if have)</string>
     <string name="tap_for_select_credential">Tap for select credential</string>
     <string name="selected_credential">Selected credential:</string>
-    <string name="credential_name_exists_err">Credential name already Exists, please change it</string>
-    <string name="repo_name_exists_err">Repo name already Exists, please change it</string>
+    <string name="credential_name_exists_err">Credential name already exists, please try another</string>
+    <string name="repo_name_exists_err">Repo name already exists, please try another</string>
     <string name="cloning">Cloning…</string>
     <string name="edit_repo">Edit Repo</string>
     <string name="del_repo">Delete Repo</string>
@@ -715,7 +715,7 @@
     <string name="cherrypick_aborted">Cherrypick Aborted</string>
     <string name="cherrypick_continue_err">Cherrypick Continue Err</string>
     <string name="creating_patch">Creating Patch…</string>
-    <string name="will_create_patch_of_selected_files_are_you_sure">will create patch of selected files, are you sure?</string>
+    <string name="will_create_patch_for_selected_files_are_you_sure">will create patch for selected files, are you sure?</string>
     <string name="copy_path">Copy Path</string>
     <string name="committer">Committer</string>
     <string name="apply_as_patch">Apply as Patch</string>
@@ -1214,6 +1214,16 @@
 
     <!-- new at 20250216 -->
     <string name="commit_all">Commit All</string>
+
+    <!-- new at 20250227 -->
+    <string name="saf_mode">Saf Mode</string>
+    <string name="saf_mode_note">Saf mode offers better compatibility and support for Termux, but it has bad performance</string>
+    <string name="import_export">Import/Export</string>
+    <string name="import_files">Import Files</string>
+    <string name="export_files">Export Files</string>
+    <string name="select_path">Select Path</string>
+    <string name="overwrite_files_note">If checked, will remove folders/files that already exist before copying; otherwise, will skip them.</string>
+    <string name="err_documentfile_is_null">err: DocumentFile is null</string>
 
 
 </resources>
