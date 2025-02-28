@@ -715,7 +715,7 @@
     <string name="cherrypick_aborted">Cherry-pick отменён</string>
     <string name="cherrypick_continue_err">Ошибка при продолжении cherry-pick</string>
     <string name="creating_patch">Создание патча…</string>
-    <string name="will_create_patch_of_selected_files_are_you_sure">Будет создан патч для выбранных файлов, вы уверены?</string>
+    <string name="will_create_patch_for_selected_files_are_you_sure">Будет создан патч для выбранных файлов, вы уверены?</string>
     <string name="copy_path">Копировать путь</string>
     <string name="committer">Автор фиксации</string>
     <string name="apply_as_patch">Применить как патч</string>
@@ -1209,6 +1209,16 @@
 
     <!-- new at 20250216 -->
     <string name="commit_all">Коммитить все</string>
+
+    <!-- new at 20250227 -->
+    <string name="saf_mode">Saf Mode</string>
+    <string name="saf_mode_note">Saf mode offers better compatibility and support for Termux, but it has bad performance</string>
+    <string name="import_export">Import/Export</string>
+    <string name="import_files">Import Files</string>
+    <string name="export_files">Export Files</string>
+    <string name="select_path">Select Path</string>
+    <string name="overwrite_files_note">If checked, will remove folders/files that already exist before copying; otherwise, will skip them.</string>
+    <string name="err_documentfile_is_null">err: DocumentFile is null</string>
 
 
 </resources>
