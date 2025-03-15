@@ -189,15 +189,15 @@
     <string name="pull">Pull</string>
     <string name="sync">Sync</string>
     <string name="pull_success">Pull Success</string>
-    <string name="pull_failed">Pull Failed!</string>
-    <string name="push_failed">Push Failed!</string>
+    <string name="pull_failed">Pull Failed</string>
+    <string name="push_failed">Push Failed</string>
     <string name="push_success">Push Success</string>
-    <string name="sync_failed">Sync Failed!</string>
-    <string name="merge_failed">Merge Failed!</string>
+    <string name="sync_failed">Sync Failed</string>
+    <string name="merge_failed">Merge Failed</string>
     <string name="err_upstream_invalid_plz_try_sync_first">err: upstream invalid, plz try sync first</string>
     <string name="plz_set_username_and_email_first">plz set Username and Email first</string>
     <string name="has_conflicts">Has Conflicts!</string>
-    <string name="commit_failed">Commit Failed!</string>
+    <string name="commit_failed">Commit Failed</string>
     <string name="reverting">Reverting…</string>
     <string name="syncing">Syncing…</string>
     <string name="pulling">Pulling…</string>
@@ -213,11 +213,11 @@
     <string name="http_https">http/https</string>
     <string name="ssh">ssh</string>
     <string name="edit_credential">Edit Credential</string>
-    <string name="abort_merge_failed">Abort Merge failed!</string>
+    <string name="abort_merge_failed">Abort Merge failed</string>
     <string name="aborting_merge">Aborting Merge…</string>
     <string name="continue_merging">Continue Merging…</string>
     <string name="abort_merge">Abort Merge</string>
-    <string name="abort_merge_notice_text">Will try restore repo files to before merge state, are you sure?</string>
+    <string name="abort_merge_notice_text">Will try to restore the repository files to the state before the merge. Are you sure?</string>
     <string name="repo">Repo</string>
     <string name="unlink">UnLink</string>
     <string name="link">Link</string>
@@ -738,7 +738,7 @@
     <string name="reset_new">Reset New</string>
     <string name="reset_old">Reset Old</string>
     <string name="invalid_oid">invalid oid</string>
-    <string name="export_path_ph1_you_can_go_to_files_page_found_this_file">export path: ph_a3f241dc_1 \n\n you can go to Files page found this file</string>
+    <string name="export_path_ph1_you_can_go_to_files_page_found_this_file">Export path: ph_a3f241dc_1\n\nYou can go to Files page to found the file</string>
     <string name="full_name">Full Name</string>
     <string name="left">Left</string>
     <string name="right">Right</string>
@@ -1216,8 +1216,8 @@
     <string name="commit_all">Commit All</string>
 
     <!-- new at 20250227 -->
-    <string name="saf_mode">Saf Mode</string>
-    <string name="saf_mode_note">Saf mode offers better compatibility and support for Termux, but it has bad performance</string>
+    <string name="saf_mode">SAF Mode</string>
+    <string name="saf_mode_note">SAF mode offers better compatibility and support for Termux, but it has bad performance</string>
     <string name="import_export">Import/Export</string>
     <string name="import_files">Import Files</string>
     <string name="export_files">Export Files</string>
@@ -1226,5 +1226,15 @@
     <string name="err_documentfile_is_null">err: DocumentFile is null</string>
     <string name="folder_is_empty">Folder is empty</string>
 
+
+    <!-- new at 20250302-->
+    <string name="aborting">Aborting…</string>
+    <string name="abort">Abort</string>
+
+    <!-- new at 20250315-->
+    <string name="home">Home</string>
+    <string name="preview">Preview</string>
+    <string name="go_back">Go Back</string>
+    <string name="go_forward">Go Forward</string>
 
 </resources>
