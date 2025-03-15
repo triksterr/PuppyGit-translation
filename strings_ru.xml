@@ -1226,8 +1226,8 @@
     <string name="abort">Прервать</string>
 
     <!-- new at 20250315-->
-    <string name="home">Home</string>
-    <string name="preview">Preview</string>
+    <string name="home">Домой</string>
+    <string name="preview">Предпросмотр</string>
     <string name="go_back">Назад</string>
     <string name="go_forward">Вперёд</string>
 	
