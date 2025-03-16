@@ -189,15 +189,15 @@
     <string name="pull">Получить</string>
     <string name="sync">Синхронизировать</string>
     <string name="pull_success">Получение успешно</string>
-    <string name="pull_failed">Получение не удалось!</string>
-    <string name="push_failed">Отправка не удалась!</string>
+    <string name="pull_failed">Получение не удалось</string>
+    <string name="push_failed">Отправка не удалась</string>
     <string name="push_success">Отправка выполнена успешно</string>
-    <string name="sync_failed">Синхронизация не удалась!</string>
-    <string name="merge_failed">Слияние не удалось!</string>
+    <string name="sync_failed">Синхронизация не удалась</string>
+    <string name="merge_failed">Слияние не удалось</string>
     <string name="err_upstream_invalid_plz_try_sync_first">Ошибка: недействительный Upstream, попробуйте сначала синхронизироваться</string>
     <string name="plz_set_username_and_email_first">Пожалуйста, сначала задайте имя пользователя и e-mail</string>
     <string name="has_conflicts">Есть конфликты!</string>
-    <string name="commit_failed">Коммит не удался!</string>
+    <string name="commit_failed">Коммит не удался</string>
     <string name="reverting">Отмена изменений…</string>
     <string name="syncing">Синхронизация…</string>
     <string name="pulling">Получение изменений…</string>
@@ -213,7 +213,7 @@
     <string name="http_https">http/https</string>
     <string name="ssh">ssh</string>
     <string name="edit_credential">Редактировать учетную запись</string>
-    <string name="abort_merge_failed">Не удалось отменить слияние!</string>
+    <string name="abort_merge_failed">Не удалось отменить слияние</string>
     <string name="aborting_merge">Отмена слияния…</string>
     <string name="continue_merging">Продолжение слияния…</string>
     <string name="abort_merge">Отменить слияние</string>
@@ -738,7 +738,7 @@
     <string name="reset_new">Сбросить новую</string>
     <string name="reset_old">Сбросить старую</string>
     <string name="invalid_oid">Неверный OID</string>
-    <string name="export_path_ph1_you_can_go_to_files_page_found_this_file">Путь экспорта: ph_a3f241dc_1 \n\n Вы можете найти этот файл на странице Файлы</string>
+    <string name="export_path_ph1_you_can_go_to_files_page_found_this_file">Путь экспорта: ph_a3f241dc_1\n\nВы можете найти этот файл на странице Файлы</string>
     <string name="full_name">Полное имя</string>
     <string name="left">Лево</string>
     <string name="right">Право</string>
@@ -1230,5 +1230,14 @@
     <string name="preview">Предпросмотр</string>
     <string name="go_back">Назад</string>
     <string name="go_forward">Вперёд</string>
-	
+
+    <!-- new at 20250316-->
+    <!-- if a file in the association list, will use internal Editor open it -->
+    <string name="file_association">File Association</string>
+    <!-- The "pattern" is regex pattern to match string, the "wildcard" is "*" of "*.txt", use to match string too-->
+    <string name="file_association_note">Per line one pattern, support wildcard</string>
+    <string name="patterns">Patterns</string>
+    <!-- edit the config file -->
+    <string name="edit_config">Edit Config</string>
+
 </resources>
